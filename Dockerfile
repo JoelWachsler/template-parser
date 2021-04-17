@@ -4,7 +4,6 @@ WORKDIR /root
 ENV PIPENV_PIPFILE /root/Pipfile
 
 COPY Pipfile .
-RUN pip install pipenv
-RUN pipenv install
+RUN pip install pipenv && pipenv install
 
 COPY main.py .
