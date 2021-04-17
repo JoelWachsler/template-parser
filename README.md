@@ -6,7 +6,7 @@ Simple Jinja2 wrapper written in Python for parsing configuration files.
 
 The following example assumes there is a file in the current directory named hello.txt.j2 with the following content
 ```
-Hello {{ variable }}
+Hello {{ MY_VARIABLE }}
 ```
 
 To parse the configuration, first build the image and tag it
